@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Resume | Beamlak Tesfaye</title>
+        <meta name="description" content="Beamlak Tesfaye's personal portfolio for her final project, that includes her resume, skills, and contact page. This is her resume page, which shows all her professional experiences of the past five years. Key words include: multimedia journalist, PR intern, and corporate partnerships communications intern. It also contains a navigation bar to move around to other pages in the site.">
+        <link rel="stylesheet" href="main.css">
+        <style>
+            .images {
+                display: flex;
+                width: 800px;
+                justify-content: center;
+                height: 500px;
+                align-items: center;
+                margin: auto;
+                padding-top: 15px;
+            }
+
+            .images h2, .images p {
+                text-align: center;
+                font-family: "Comic", serif;
+                padding-left: 22px;
+                padding-right: 22px;
+            }
+
+            .content {
+                overflow: hidden;
+                margin: 0;
+                padding: 0;
+                position: relative;
+                width: 100%;
+                height: 410px;
+            }
+
+            .content img {
+                width: 100%;
+                height: 100%;
+            }
+
+            .text ul {
+                position: absolute;
+                bottom: 50%;
+                left: 50%;
+                transform: translate(-50%, 50%);
+                width: 100%;
+                color: white;
+                text-align: left;
+                padding: 20px 0;
+                font-size: 18px;
+                font-family: "Merchant", serif;
+                align-self: center;
+                width: 80%;
+                padding-top: 40px;
+                visibility: hidden;
+            }
+
+            .text li {
+                padding-bottom: 20px;
+            }
+            .overlay {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(0, 0, 0, 0.0); 
+            }
+
+            .content:hover ul {
+                visibility: visible;
+            }
+
+            .content:hover .overlay {
+                background-color: rgba(0, 0, 0, 0.7)
+            }
+
+            #cld_images {
+                display: flex;
+                width: 800px;
+                justify-content: center;
+                height: 500px;
+                align-items: center;
+                margin: auto;
+                padding-top: 15px;
+            }
+
+            #cld_images h2, #cld_images p {
+                text-align: center;
+                font-family: "Comic", serif;
+                padding-left: 22px;
+                padding-right: 22px;
+            }
+            
+            #cld_content {
+                overflow: hidden;
+                margin: 0;
+                padding: 0;
+                position: relative;
+                width: 900px;
+                height: 300px;
+            }
+
+            #cld_content img {
+                width: 100%;
+                height: 100%;
+            }
+
+            #cld_overlay {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(0, 0, 0, 0.0); 
+            }
+            
+            #cld_content:hover ul {
+                visibility: visible;
+            }
+
+            #cld_content:hover #cld_overlay {
+                background-color: rgba(0, 0, 0, 0.7);
+            }
+            
+            #blurb {
+                text-align: left;
+                margin: auto;
+                font-family: "Comic", sans-serif;
+                font-size: 19px;
+                width: 900px;
+                padding-top: 20px;
+                color: rgb(88, 131, 85);
+                border-bottom: 2px solid rgb(88, 131, 85);
+            }
+
+            #next {
+                color: white;
+                text-shadow: 2px 2px 5px rgb(88, 131, 85);
+                text-align: center;
+                font-size: 150%;
+            }
+
+            hr {
+                border: 2px solid rgb(88, 131, 85);
+            }
+
+            #then {
+                background-color: rgb(88, 131, 85, 0.7);
+                width: 1000px;
+                margin: auto;
+            }
+
+            .additional {
+                display: flex;
+                width: 900px;
+                margin: auto;
+                height: 200px;
+                padding-bottom: 30px;
+            }
+
+            .title {
+                width: 400px;
+                font-size: larger;
+                text-align: right;
+                align-self: center;
+                color: white;
+            }
+
+            .what {
+                width: 1000px;
+                margin-left: 20px;
+                font-family: "Comic", serif;
+            }
+
+            .what li {
+                font-size: larger;
+                padding-bottom: 10px;
+                color: rgb(251, 239, 255);
+            }
+
+            #resume {
+                background-color: rgb(88, 131, 85, 0.3);
+            }
+        </style>
+    </head>
+    <body>
+        <div id="navbar">
+            <a href="homepage.html">Home</a>
+            <a id="resume" href="resume.html">Resume</a>
+            <a href="skills.html">Skills</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <div id="blurb">
+            <p>
+                Over the course of my academic career, I've acquired several internships that added to my expertise in digital storytelling and corporate communications. With each experience, I learned both technical and soft skills that complement my knowledge. From navigating Asana archives to utilizing Ross Inception for broadcasting, I learned how to use technology to make my work more efficient. With my on-going minor in Artifical Intelligence Applications, I am able to use the most cutting-edge technology to enhance my professional experiences. <br><br>My three most recent experiences cover everything from PR to comms to journalism -- all essential to my goals in this field. Hover over each image to see the specific tasks I did for each organization.
+            </p>
+        </div>
+
+        <div class="images">
+            <div class="content">
+                    <div class="overlay"></div>
+                    <div class="text">
+                        <ul>
+                            <li>Comb through 3 years worth of data scattered across multiple platforms like Asana and Google folders,
+                                and organize the data into one file</li>
+                            <li>Market the No Kid Hungry brand to business executives for a potential partnership</li>
+                            <li>Plan events for C-suite businesspersons, including dinners in New York, Los Angeles, and the DMV area</li>
+                        </ul>
+                    </div>
+                    <img src="img/nkh.jpg" alt="No Kid Hungry Logo">
+                </div>
+            <div>
+                <h2>Corporate Partnerships Communications Intern</h2>
+                <p>Nonprofit - Communications - Corporate Partnerships - Corporate Research - Data Management</p>
+            </div>
+        </div>
+
+        <div class="images">
+            <div>
+                <h2>Multimedia Journalist</h2>
+                <p>Broadcast Journalism - Interviewing - Writing Script for TV - Video Editing - Storytelling - Fact-Checking - Proofreading</p>
+            </div>
+            <div class="content">
+                <img src="img/atvn.jpeg" alt="ATVN Logo">
+                <div class="overlay"></div>
+                <div class="text">
+                    <ul>
+                        <li>Proofread and edit scripts, checking for grammar, storytelling, and fact-checking</li>
+                        <li>Gather and edit footage of relevant news stories using Adobe Premiere Pro</li>
+                        <li>Work under pressure in delivering all edited clips and scripts with the use of Ross Inception</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div id="cld_images"> 
+            <div id="cld_content"> 
+                <img src="img/cld.png" alt="CLD PR Logo">
+                <div id="cld_overlay"></div>
+                <div class="text">
+                    <ul>
+                        <li>Prepared for, set up, and took down brand events including a Pre-Coachella festival event, performing tasks that include heavy lifting, problem solving, creative design, and interpersonal engagement with influencers and other high figures</li>
+                        <li>Efficiently produced exceptional results within various departments, from Celebrity to Operations</li>
+                        <li>Became promoted to Intern Lead within one month of work</li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <h2>Fashion PR Intern</h2>
+                <p>Event Planning - Influencer Engagement - Influencer Research - Facility Care</p>
+            </div>
+        </div>
+
+        <hr>
+
+        <div id="next">
+            <h2>Additional Experiences</h2>
+        </div>
+
+        <div id="then">
+            <div class="additional">
+                <div class="title">
+                    <strong>Youth Leader </strong>
+                </div>
+                <div class="what">
+                    <ul>
+                        <li>Organized monthly group activities for youth and lead weekly choir practices</li>
+                        <li>Facilitated conversations between the youth and the adult leadership to foster a better community and smoother functions within the church</li>
+                        <li>Built partnerships with other church youth leaders to develop support within our communities</li>
+                    </ul>
+                </div>
+            </div>
+    
+            <div class="additional">
+                <div class="title">
+                    <strong>Swim Instructor</strong>
+                </div>
+                <div class="what">
+                    <ul>
+                        <li>Taught swim instruction to students, varying in ages and skill levels, how to float, swim, and tread in water</li>
+                        <li>Mentored and trained new swim instructors on best practices</li>
+                        <li>Created weekly lesson plans that helped advance the students' swimming skills</li>
+                        <li>Communicated clearly and positively with parents to ensure expectations were met and exceeded</li>
+                    </ul>
+                </div>
+            </div>
+    
+        </div>
+
+        <div id="footer">
+            <div id="name">
+                <a href="homepage.html">Beamlak Tesfaye</a>
+            </div>
+            <div id="linkedin"><a href="https://www.linkedin.com/in/beamlak-tesfaye-33a983206/" target="_blank"><img src="img/linkedin.png" alt="LinkedIn Logo"></a>
+            <a href="homepage.html">Home</a>
+            <a href="resume.html">Resume</a>
+            <a href="skills.html">Skills</a>
+            <a href="contact.html">Contact</a>
+        
+            </div>
+        </div>
+    </body>
+</html>

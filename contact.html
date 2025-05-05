@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Contact | Beamlak Tesfaye</title>
+        <meta name="description" content="Beamlak Tesfaye's personal portfolio for her final project, that includes her resume, skills, and contact page. This is her contact page, which prompts for a form fillout or contacting through email. It also contains a navigation bar to move around to other pages in the site.">
+        <link rel="stylesheet" href="main.css">
+        <style>
+            #contact {
+                background-color: rgb(88, 131, 85, 0.3);
+            }
+
+            .row input {
+                width: 200px;
+                height: 50px;
+                margin-right: 10px;
+                margin-bottom: 10px;
+            }
+
+            #main {
+                display: flex;
+            }
+
+            
+            #form {
+                margin-left: 30px;
+
+            }
+
+            textarea {
+                width: 410px;
+                height: 250px;
+            }
+
+            #head {
+                display: flex;
+                width: 100%;
+                font-family: "Comic", sans-serif;
+                color: rgb(59, 87, 56);
+                align-items: center;
+            }
+
+            #photo {
+                width: 50%;
+                height: 450px;
+                background-image: url(img/me.JPG);
+                background-size: cover;
+                overflow: hidden;
+                background-position: center;
+            }
+
+            #text {
+                text-align: center;
+                font-size: xx-large;
+                padding-left: 20px;
+                width: 50%;
+            }
+
+            h3 {
+                font-family: "Comic", sans-serif;
+                color: rgb(251, 239, 255);
+                font-size: xx-large;
+            }
+
+            #everything {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background: rgb(88, 131, 85, 0.7);
+                padding: 30px 0px;
+            }
+
+            #or {
+                margin: 100px;
+                font-family: "Comic", sans-serif;
+                color: rgb(251, 239, 255);
+            }
+
+            #email {
+                font-family: "Comic", sans-serif;
+                color: rgb(251, 239, 255);
+                font-size: xx-large;
+            }
+
+            #email a {
+                color: rgb(251, 239, 255);
+            }
+
+        </style>
+    </head>
+    <body>
+        <div id="navbar">
+            <a href="homepage.html">Home</a>
+            <a href="resume.html">Resume</a>
+            <a href="skills.html">Skills</a>
+            <a id="contact" href="contact.html">Contact</a>
+        </div>
+
+        <div id="head">
+            <div id="photo"></div>
+
+            <div id="text">
+                <h1>I'd love to hear from you!</h1>
+            </div>
+        </div>
+
+        <div id="everything">
+            <div id="form">
+                <h3>Contact Form</h3>
+            
+                <form action="confirmation.html">
+                    <div id="main">
+                        <div class="row"> 
+                            <input type="text" placeholder="Name">
+                        </div>
+            
+                        <div class="row">
+                            <input type="email" placeholder="Email">
+                        </div>
+                    </div>
+        
+                    <div class="row">
+                        <textarea id="message" placeholder="Type your message here..."></textarea>
+                    </div>
+        
+                    <div class="final">
+        
+                        <button type="submit" id="submit">Send</button>
+        
+                        <button type="reset">Cancel</button>
+                    </div>
+                </form>
+            </div>
+    
+            <div id="or">
+                <h1>OR</h1>
+            </div>
+    
+            <div id="email">
+                <p>Email me at: <br><br><a href="mailto:tbbeamlak@gmail.com">tbbeamlak@gmail.com</a></p>
+            </div>
+    
+        </div>
+
+
+        <div id="footer">
+            <div id="name">
+                <a href="homepage.html">Beamlak Tesfaye</a>
+            </div>
+            <div id="linkedin"><a href="https://www.linkedin.com/in/beamlak-tesfaye-33a983206/" target="_blank"><img src="img/linkedin.png" alt="LinkedIn Logo"></a>
+            <a href="homepage.html">Home</a>
+            <a href="resume.html">Resume</a>
+            <a href="skills.html">Skills</a>
+            <a href="contact.html">Contact</a>
+        
+            </div>
+        </div> 
+    </body>
+</html>
